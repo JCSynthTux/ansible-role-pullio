@@ -1,0 +1,8 @@
+---
+
+- name: Download Pullio script from GitHub
+  get_url:
+    url: "{{ pullio_script_url }}"
+    dest: "{{ pullio_install_path }}"
+    mode: "0744"
+
