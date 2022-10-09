@@ -1,0 +1,28 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: pullio
+  author: JCSynthTux
+  description: Deploys Pullio Script To Update Docker Containers 
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.10.8
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+        - focal
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+        - stretch
+        - buster
+        - bullseye
+  galaxy_tags:
+    - images
+    - update
+    - docker
+    - container
